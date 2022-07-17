@@ -285,3 +285,26 @@
         margin-top: 50px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+    .menu span{
+        display: none;
+    }
+    .text{
+        font-size: 25px;
+    }  
+    .clients{
+        display: block;
+        
+    }
+    .section1 .left{
+        display: block;
+    }
+    .left img, .right img{
+        display: block;
+    }
+    .examples{
+        display: block;
+    }
+}
